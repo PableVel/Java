@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.208">
+    <testcase classname="Final Bill Calculation" name="Customer bill Amount calculation" time="0.033">
+        <system-out><![CDATA[Given I have a Customer.....................................................passed
+And users enters initial bill amount as 100.................................passed
+And Sales Tax Rate is 10 percent............................................passed
+Then final bill amount calculate is 110.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Final Bill Calculation" name="Customer bill Amount calculation 2" time="0">
+        <system-out><![CDATA[Given I have a Customer.....................................................passed
+And users enters initial bill amount as 200.................................passed
+And Sales Tax Rate is 8 percent.............................................passed
+Then final bill amount calculate is 208.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Final Bill Calculation" name="Customer bill Amount calculation 3" time="0">
+        <system-out><![CDATA[Given I have a Customer.....................................................passed
+And users enters initial bill amount as 100.................................passed
+And Sales Tax Rate is 1.55 percent..........................................passed
+Then final bill amount calculate is 101.55..................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

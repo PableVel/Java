@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="2">
+    <test name="C:/Users/Pablo_Velazquez/Documents/IdeaProjects/prueba/src/prueba/Tests.java">
+        <parameter name="Password" value="Baloncito98."/>
+        <classes>
+            <class name="prueba.Tests">
+
+            </class>
+        </classes>
+    </test>
+    <test name="2">
+        <parameter name="Password" value="IncorrectPasword"/>
+        <classes>
+            <class name="prueba.Tests">
+            </class>
+        </classes>
+    </test>
+</suite>
